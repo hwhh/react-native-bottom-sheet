@@ -86,7 +86,7 @@ export interface BottomSheetModalMethods extends BottomSheetMethods {
    * Mount and present the bottom sheet modal to the initial snap point.
    * @param data to be passed to the modal.
    */
-  present: (data?: never) => void;
+  present: (data?: any) => void;
   /**
    * Close and unmount the bottom sheet modal.
    * @param animationConfigs snap animation configs.
